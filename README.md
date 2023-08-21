@@ -1,5 +1,16 @@
+
+# KLP Lame keycaps (MX profile)
+This is MX-profile fork of KLP Lame keycaps. I changed size from 16.5x17.5 to 18.3x18.3 and added MX pin instead of choc ones.
+
+![](./Assets/KLP_Lame_Preview_MX.png)
+
+(keycaps aren't postprocessed on photos)
+
+![](./Assets/photo_2023-08-22_00-08-39.jpg)
+![](./Assets/photo_2023-08-22_00-08-46.jpg)
 ![](./Assets/KLP_Lame_Preview.jpg)
 
+# Original README:
 # KLP Lamé — Kailh Low Profile Keycaps
 
 The repository contains these folders:
