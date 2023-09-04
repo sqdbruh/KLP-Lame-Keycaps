@@ -1,17 +1,6 @@
+![](./Assets/KLP_Lame_Preview_All.jpg)
 
-# KLP Lame keycaps (MX profile)
-This is MX-profile fork of KLP Lame keycaps. I changed size from 16.5x17.5 to 18.3x18.3 and added MX pin instead of choc ones.
-
-![](./Assets/KLP_Lame_Preview_MX.png)
-
-(keycaps aren't postprocessed on photos)
-
-![](./Assets/photo_2023-08-22_00-08-39.jpg)
-![](./Assets/photo_2023-08-22_00-08-46.jpg)
-![](./Assets/KLP_Lame_Preview.jpg)
-
-# Original README:
-# KLP Lamé — Kailh Low Profile Keycaps
+# KLP Lamé — Kailh Choc & MX Keycaps
 
 The repository contains these folders:
 
@@ -31,11 +20,53 @@ There are currently seven variants of keycaps:
 - **Saddle Tilted**. Tilted version of Saddle. Same 15° and height compensation.
 - **Saddle Homing**. Has three little bumps that is useful to determine home positions.
 
+## What caps do I need for my keyboard?
+
+It depends. For corne-like keyboards with 36-keys I use:
+
+- 20 Saddle Tilted (for top and bottom rows)
+- 16 Saddle (10 for home row + 6 for thumbs)
+
+or
+
+- 20 Normal Tilted (for top and bottom rows)
+- 10 Normal (for home row)
+- 6 Thumb
+
 ## How to print?
 
 It is best to position the model more vertically to avoid tactile layer-to-layer bumps.
 
 > Personally, I use 45° or 75° angle, but it's up to you.
+
+There are combined files, at least for Choc version that you can use in any 3D-printing service like [JLCPCB](https://3d.jlcpcb.com/3d-printing/stereolithography) or [PCBWay](https://www.pcbway.com/rapid-prototyping/3d-printing/).
+
+### Saddle
+
+[`KLP-Lame-Saddle-6ST-3S-Combined`](./STL/Choc/Combined/KLP-Lame-Saddle-6ST-3S-Combined.stl) that contains:
+
+- 6 × Saddle Tilted
+- 3 × Saddle
+
+[`KLP-Lame-Saddle-4ST-4S-1SH-Combined`](./STL/Choc/Combined/KLP-Lame-Saddle-4ST-4S-1SH-Combined.stl) that contains:
+
+- 4 × Saddle Tilted
+- 4 × Saddle
+- 1 × Saddle Homing
+
+### Normal
+
+[`KLP-Lame-Normal-6NT-3N-Combined`](./STL/Choc/Combined/KLP-Lame-Normal-6NT-3N-Combined.stl) that contains:
+
+- 6 × Normal Tilted
+- 3 × Normal
+
+[`KLP-Lame-Normal-4NT-3TH-1NH-1N-Combined`](./STL/Choc/Combined/KLP-Lame-Normal-4NT-3TH-1NH-1N-Combined.stl) that contains:
+
+- 4 × Normal Tilted
+- 3 × Thumb
+- 1 × Normal Homing
+- 1 × Normal
 
 ## Warning
 
